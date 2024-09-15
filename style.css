@@ -1,0 +1,63 @@
+#title{
+    height: 70vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.gradient-background {
+        background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+        background-size: 180% 180%;
+        animation: gradient-animation 15s ease infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+
+    
+}
+
+#eldarphotoSlika{
+    width: 70vh;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.uslugeCol{
+    text-align: center;
+}
+
+#ikonaIg{
+    color: black;
+    --bs-icon-link-transform: translate3d(0, -.125rem, 0);
+    font-weight: bold;
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+#btnLink:hover{
+  color: black;
+}
